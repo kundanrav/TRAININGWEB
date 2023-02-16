@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contain{
+             width: 2000px; 
+            height: 700px; 
+            
+        }
+        
+        .header{
+            height: 130px; 
+            width: 2000px; 
+            
+            background-color:#6b747f;
+            
+        }
+        .img1 img{
+            height: 100px;
+            width: 100px;
+            margin-left: 280px;
+            margin-top: 10px;
+        }
+        .img1{
+            display: inline-block;
+        }
+        .topnav{
+            display:inline-block ;
+            height: 20px;
+            float: right;
+            font-size: 25px;
+         margin-right: 290px;
+         }
+         .topnav a{
+            display: inline-block;
+            margin-right: 10px;
+            margin-top: 50px;
+            color: white;
+            text-decoration: none;
+            padding: 20px;  
+                }
+         .center1{
+            height: auto;
+            width: auto;
+        
+            align-items: center;
+            margin-right: 800px;
+            margin-top: 20px;
+         
+            float: right;
+         }
+         
+         .text{
+            height: 70px;
+            width: 400px;
+            
+            margin-left: 120px;
+            margin-top: 0px;
+            text-align: center;
+            font-size: 40px;
+            color: white;
+        
+            
+         }
+         .sidebar{
+            display: inline-block;
+            width: 450px;
+            height:700px;
+            margin-top: 10px;
+            
+            border: 0px solid black;
+            margin-bottom: 0px;
+            background-color: #6b747f;
+            font-size: 18px;
+            
+        }
+        
+
+
+ fieldset{
+    height: 75%;
+    width: 40%;
+    margin-left: 20px;
+    margin-top: 30px;
+    background-color: lightslategray;
+}
+table {
+    height: 90%;
+    width: 95%;
+    
+}
+h2{
+    text-align: center; color:rosybrown; 
+    background-color:lavender;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+input {
+    float:right; margin-right:400px
+
+}
+th,td{
+
+    text-align: center;
+
+}
+
+          
+    </style>
+</head>
+<body>
+
+    
+ <div class="contain">
+     <div class="header">
+            <div class="img1">
+                <img src="logo.png">
+            </div>
+
+                <div class="topnav">
+                    <a href="indexT.html">Home</a>
+                    <a href="MAINHEADER.html">HTML</a>
+                    <a href="CSSHEADER.html">CSS</a>
+                    <a href="indexT.html">Bootstrap</a>
+                    <a href="indexT.html">JavaScript</a>
+                    <a href="indexT.html">Jquery</a>
+                    <a href="indexT.html">MiniProject</a>
+                    <a href="indexT.html">SQL</a>
+                </div> 
+     </div>
+     <div class="center1">
+        <fieldset><legend></legend>
+            <h2> REPORT CARD</h2><hr>
+       <table border=2px aria-describedby="table">
+    
+    
+        <div>
+            <label><strong>Name:</strong></label>
+        <input type="text" name="sname" placeholder="Student Name">
+        </div><br>
+        <div class="fathername">
+            <label><strong>Father Name:</strong></label>
+            <input type="text" name="fname"  placeholder="Student Father  Name">
+            </div><br>
+            
+            <div class="rollno">
+                <label><strong>Roll No:</strong></label>
+                <input type="text" name="rollno"  placeholder="Student Rollno Name">
+            </div><br>
+    
+            <div class="class">
+                <label><strong>Class:</strong></label>
+                <input type="text"  placeholder="Student Class">
+            </div><br>
+    
+            <div class="year">
+                <label><strong>Passing Year:</strong></label>
+                <input type="date" name="fname" style="float:right; margin-right:459px;">
+                </div><br><hr>
+        
+        <tr style="background-color:dimgray;">
+            <th id="sub">SUBJECT</th>
+            <th id="gra1">GRADE Q1</th>
+            <th id="gra2">GRADEQ2</th>
+            <th id="gra3">GRADE Q3</th>
+            <th id="gra4">GRADE Q4</th>
+    
+            </tr>
+            <tr>
+                <th id="sub1">SUBJECT 1</th>
+                <td>A</td>
+                <td >B</td>
+                <td>A</td>
+                <td>A</td></tr>
+                <tr>
+                <th  id="sub2">SUBJECT2</th>
+                <td >B</td>
+                <td>A</td>
+                <td>A</td>
+                <td>A</td>
+                </tr>
+                <tr>
+                <th  id="sub3">SUBJECT3</th>
+                <td>A</td>
+                <td>A</td>
+                <td>B</td>
+                <td>A</td>
+                </tr>
+                <tr>
+                <th  id="sub4">SUBJECT4</th>
+                <td>A</td>
+                <td>B</td>
+                <td>A</td>
+                <td>A</td>
+                </tr>
+                <tr>
+                <th id="sub5">SUBJECT5</th>
+                <td>A</td>
+                <td>A</td>
+                <td>B</td>
+                <td>A</td>
+                </tr>
+                <tr>
+               
+                <th id="overall">OVERALL SCORE</th>
+                <td>A</td>
+                <td>B</td>
+                <td>B</td>
+                <td>A</td><br>
+                <tr></table><br>
+                    <table border=2px aria-describedby="table">
+                <tr style="background-color:darkslategrey; text-align: center;" >
+                    <th id="attandance">ATTANDANCE</th>
+                    <th id="number">NUMBER</th>
+                  
+                   </tr>
+                   <tr>
+                    <td style="text-align:left;"><strong>Days Present</strong></td>
+                    <td style="text-align: center;">120</td>
+                    
+                   </tr>
+                   <tr>
+                    <td style="text-align:left;"><strong>Excused Absences</strong> </td>
+                    <td style="text-align: center;">4</td>
+                   </tr>
+                   <tr>
+                    <td style="text-align:left;"><strong> Unexcused Absences</strong></td>
+                    <td style="text-align: center;">1</td>
+                   </tr>
+                   <tr>
+                    <td style="text-align:left;"> <strong>Toal Absences</strong></td>
+                    <td style="text-align: center;">5</td>
+                   </tr>
+                    </table>
+                    
+    
+            
+        <br>
+    
+       <div class="feedbabk">
+        <label><strong>Teacher's Feedback:</strong></label></div><br>
+        <hr style="border: 1px dotted red;"><br>
+        <hr style="border: 1px dotted red;"><br>
+    
+       
+            <div class="principalsignature">
+                <label style="margin-right: 18%;"><strong>Principal Signature:</strong></label></div><br>
+    
+       </fieldset>
+       
+     </div>
+     <div class="sidebar">
+        
+        <ul>
+            <li>Day1</li>
+            <ul><li>Assigment</li>
+            <ul>
+                <li type="square"><a href="Card.html">Assigment1</a></li>
+                <li type="square"><a href="#">Assigment2</a></li>
+                <li type="square"><a href="#">Assigment3</a></li>
+            </ul></ul>
+            <ul>
+            <li star="circle">Practice</li>
+            <ul start="square">
+                <li><a href="CSSREPORTCARD.html">Practice1</a></li>
+                <li><a href="CSSHTMLTag.html">Practice2</a></li>
+                <li><a href="CSSEMPLOYEEFORM.html">Practice3</a></li>
+                <li><a href="#">Practice4</a></li>
+                <li><a href="#">Practice5</a></li>
+                <li><a href="#">Practice6</a></li>
+            </ul>
+            </ul>
+        </ul>
+        <ul>
+            <li>Day2</li>
+            <ul><li>Assigment</li>
+            <ul>
+                <li type="square"><a href="#">Assigment1</a></li>
+                <li type="square"><a href="#">Assigment2</a></li>
+                <li type="square"><a href="#">Assigment3</a></li>
+            </ul></ul>
+            <ul>
+            <li star="circle">Practice</li>
+            <ul start="square">
+                <li><a href="#">Practice1</a></li>
+                <li><a href="#">Practice2</a></li>
+                <li><a href="#">Practice3</a></li>
+                <li><a href="#">Practice4</a></li>
+                <li><a href="#">Practice5</a></li>
+                <li><a href="#">Practice6</a></li>
+                <li><a href="#">Practice7</a></li>
+                <li><a href="#">Practice8</a></li>
+                <li><a href="#">Practice9</a></li>
+                
+            </ul>
+            </ul>
+        </ul>
+
+    </div>
+<div class="container">
+     </div>
+
+
+ </div>
+</body>
+</html>
